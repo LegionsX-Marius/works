@@ -146,7 +146,7 @@ function listUsers() {
 // Auto-inițializare la încărcarea paginii (opțional)
 document.addEventListener('DOMContentLoaded', function() {
   // Decomentează linia de mai jos dacă vrei inițializare automată
-  // initializeUsers();
+  initializeUsers();
 });
 
 // Expune funcțiile în obiectul global pentru uz în consolă
@@ -157,3 +157,4 @@ window.UserManager = {
   list: listUsers
 
 };
+
