@@ -3,10 +3,10 @@
 // Lista inițială de utilizatori
 const INITIAL_USERS = [
   {
-    name: "Ion Popescu", 
-    id: "001", 
+    name: "Marius", 
+    id: "138", 
     grade: "Director",
-    pin: "1234"
+    pin: "1901"
   },
   {
     name: "Maria Ionescu", 
@@ -15,8 +15,8 @@ const INITIAL_USERS = [
     pin: "5678"
   },
   {
-    name: "Andrei Vasilescu", 
-    id: "003", 
+    name: "Miruna", 
+    id: "655", 
     grade: "Sef Spital"
   },
   {
@@ -155,4 +155,5 @@ window.UserManager = {
   reset: resetUsers,
   add: addUser,
   list: listUsers
+
 };
